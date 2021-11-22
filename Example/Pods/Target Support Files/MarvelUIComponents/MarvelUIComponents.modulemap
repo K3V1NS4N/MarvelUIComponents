@@ -1,0 +1,6 @@
+framework module MarvelUIComponents {
+  umbrella header "MarvelUIComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

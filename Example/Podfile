@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'MarvelUIComponentsExample' do
+  pod 'MarvelUIComponents', :path => '../'
+end

@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7FA8CAC49D915AD9ECEEA7DFA58945 /* Pods-MarvelUIComponentsExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A2BAE716ABDA4D395B1DDC4756D4DF /* Pods-MarvelUIComponentsExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE601A36782B188BB78535C222E55B7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65534616EF311E077DCEB07781669621 /* Logger.swift */; };
+		52A16C063072D1F857C64F6BE3E01028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56B564DAE0D4CE7476A8E46B5D410700 /* Pods-MarvelUIComponentsExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE84069C71E48181FA7EC71CE03A81C /* Pods-MarvelUIComponentsExample-dummy.m */; };
+		5A65E115D9D29341365447FC14DFB512 /* MarvelUIComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6C203C8D30CC41600ECFCF901E123B /* MarvelUIComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		620EC577461C989FC4B18EC03E1F0DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7AAED71F41517A6657C9E64630DF1230 /* MarvelUIComponents-Resources in Resources */ = {isa = PBXBuildFile; fileRef = 1A446CD91853E48B2C5489CFA4C8D393 /* MarvelUIComponents-Resources */; };
+		A4EA05DF31791A2A9FF86FCECC43A22D /* MarvelUIComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0AD9F05A62058D24CFCF7F4FBA525F /* MarvelUIComponents-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A51A5A3D2AAE11BC86DA51A12A15CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE19FB3D51F755FAE5E9C6678F19BB9E;
+			remoteInfo = "MarvelUIComponents-Resources";
+		};
+		BE4F93063CDE6BCFD2B75DC167835B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28664E09E71571199DA5080D75215C28;
+			remoteInfo = MarvelUIComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CD06BB95E20A677ED2734D15555F49 /* MarvelUIComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarvelUIComponents.modulemap; sourceTree = "<group>"; };
+		07A7297A7B9FC600DF814FBDC9898ACF /* ResourceBundle-Resources-MarvelUIComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-MarvelUIComponents-Info.plist"; sourceTree = "<group>"; };
+		1A446CD91853E48B2C5489CFA4C8D393 /* MarvelUIComponents-Resources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MarvelUIComponents-Resources"; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0AD9F05A62058D24CFCF7F4FBA525F /* MarvelUIComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MarvelUIComponents-dummy.m"; sourceTree = "<group>"; };
+		21A2BAE716ABDA4D395B1DDC4756D4DF /* Pods-MarvelUIComponentsExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarvelUIComponentsExample-umbrella.h"; sourceTree = "<group>"; };
+		22FB03988D818D09D61EFEF0CA33021F /* MarvelUIComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarvelUIComponents-prefix.pch"; sourceTree = "<group>"; };
+		2923B20338DBD880D53AB75D2F669C50 /* MarvelUIComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MarvelUIComponents-Info.plist"; sourceTree = "<group>"; };
+		3BB002367D9D23F7D965C39CF9A2703D /* MarvelUIComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MarvelUIComponents; path = MarvelUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		468FE7B7E589F05E7C039F67BD5DE4E9 /* MarvelUIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarvelUIComponents.debug.xcconfig; sourceTree = "<group>"; };
+		4D6C203C8D30CC41600ECFCF901E123B /* MarvelUIComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MarvelUIComponents-umbrella.h"; sourceTree = "<group>"; };
+		4E83953BC3B3BC35C65EEC5FD2AB0978 /* Pods-MarvelUIComponentsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelUIComponentsExample.debug.xcconfig"; sourceTree = "<group>"; };
+		65534616EF311E077DCEB07781669621 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = MarvelUIComponents/Classes/Logger.swift; sourceTree = "<group>"; };
+		6975EC9E081CFC944DB29914490AF284 /* Pods-MarvelUIComponentsExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarvelUIComponentsExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AB8180C07F2E2145121F303164EBDA1 /* Pods-MarvelUIComponentsExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarvelUIComponentsExample"; path = Pods_MarvelUIComponentsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92524AF04020DED8B53F8559CE21B339 /* Pods-MarvelUIComponentsExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarvelUIComponentsExample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1637C6389DB8D76E99779FC7E9BF7FB /* MarvelUIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MarvelUIComponents.release.xcconfig; sourceTree = "<group>"; };
+		D4F6397C1AEFBC44546668FA05533146 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DABFE018B1AF611F1BCCF0EA6B9AC07E /* Pods-MarvelUIComponentsExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelUIComponentsExample-Info.plist"; sourceTree = "<group>"; };
+		DBE84069C71E48181FA7EC71CE03A81C /* Pods-MarvelUIComponentsExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarvelUIComponentsExample-dummy.m"; sourceTree = "<group>"; };
+		DFC250EE0A1FFEA073AAED849C768383 /* Pods-MarvelUIComponentsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarvelUIComponentsExample.release.xcconfig"; sourceTree = "<group>"; };
+		ED4B64746A2D11B6A44DA589EC40EB9E /* MarvelUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MarvelUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF167754D624BF8D8E31646E2223A85F /* Pods-MarvelUIComponentsExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarvelUIComponentsExample-frameworks.sh"; sourceTree = "<group>"; };
+		FADDFF85F8DA8CE5D66A2AB5BA9A11D8 /* Pods-MarvelUIComponentsExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarvelUIComponentsExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01EE0A450AC4928662EBAA8EB2077189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620EC577461C989FC4B18EC03E1F0DD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C950B6BE406B86799ECCD414E0C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1913174BFCFFD717C45DA3D3A91511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A16C063072D1F857C64F6BE3E01028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0101B455E75DB1FE240DE464139712AB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED4B64746A2D11B6A44DA589EC40EB9E /* MarvelUIComponents.podspec */,
+				D4F6397C1AEFBC44546668FA05533146 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0679AC4E72AC77570F80FBEFD510F512 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19ECAB00E9F0C79CCCFD6EC4E94CC71E /* Pods-MarvelUIComponentsExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		19ECAB00E9F0C79CCCFD6EC4E94CC71E /* Pods-MarvelUIComponentsExample */ = {
+			isa = PBXGroup;
+			children = (
+				92524AF04020DED8B53F8559CE21B339 /* Pods-MarvelUIComponentsExample.modulemap */,
+				6975EC9E081CFC944DB29914490AF284 /* Pods-MarvelUIComponentsExample-acknowledgements.markdown */,
+				FADDFF85F8DA8CE5D66A2AB5BA9A11D8 /* Pods-MarvelUIComponentsExample-acknowledgements.plist */,
+				DBE84069C71E48181FA7EC71CE03A81C /* Pods-MarvelUIComponentsExample-dummy.m */,
+				EF167754D624BF8D8E31646E2223A85F /* Pods-MarvelUIComponentsExample-frameworks.sh */,
+				DABFE018B1AF611F1BCCF0EA6B9AC07E /* Pods-MarvelUIComponentsExample-Info.plist */,
+				21A2BAE716ABDA4D395B1DDC4756D4DF /* Pods-MarvelUIComponentsExample-umbrella.h */,
+				4E83953BC3B3BC35C65EEC5FD2AB0978 /* Pods-MarvelUIComponentsExample.debug.xcconfig */,
+				DFC250EE0A1FFEA073AAED849C768383 /* Pods-MarvelUIComponentsExample.release.xcconfig */,
+			);
+			name = "Pods-MarvelUIComponentsExample";
+			path = "Target Support Files/Pods-MarvelUIComponentsExample";
+			sourceTree = "<group>";
+		};
+		1BF225CC3336141F87E7D066D0C48DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BB002367D9D23F7D965C39CF9A2703D /* MarvelUIComponents */,
+				1A446CD91853E48B2C5489CFA4C8D393 /* MarvelUIComponents-Resources */,
+				7AB8180C07F2E2145121F303164EBDA1 /* Pods-MarvelUIComponentsExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB655FE48676051495CEA6F651FEDDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CD06BB95E20A677ED2734D15555F49 /* MarvelUIComponents.modulemap */,
+				1F0AD9F05A62058D24CFCF7F4FBA525F /* MarvelUIComponents-dummy.m */,
+				2923B20338DBD880D53AB75D2F669C50 /* MarvelUIComponents-Info.plist */,
+				22FB03988D818D09D61EFEF0CA33021F /* MarvelUIComponents-prefix.pch */,
+				4D6C203C8D30CC41600ECFCF901E123B /* MarvelUIComponents-umbrella.h */,
+				468FE7B7E589F05E7C039F67BD5DE4E9 /* MarvelUIComponents.debug.xcconfig */,
+				A1637C6389DB8D76E99779FC7E9BF7FB /* MarvelUIComponents.release.xcconfig */,
+				07A7297A7B9FC600DF814FBDC9898ACF /* ResourceBundle-Resources-MarvelUIComponents-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MarvelUIComponents";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C16CB20709CB2979F87F687F08E70A9 /* MarvelUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				65534616EF311E077DCEB07781669621 /* Logger.swift */,
+				0101B455E75DB1FE240DE464139712AB /* Pod */,
+				2AB655FE48676051495CEA6F651FEDDB /* Support Files */,
+			);
+			name = MarvelUIComponents;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B011AEDF7CF9FD44C56DC2C8DFCE7DB7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C16CB20709CB2979F87F687F08E70A9 /* MarvelUIComponents */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B011AEDF7CF9FD44C56DC2C8DFCE7DB7 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1BF225CC3336141F87E7D066D0C48DDB /* Products */,
+				0679AC4E72AC77570F80FBEFD510F512 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69FF022FC485F64B4AF40CF4AA367760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7FA8CAC49D915AD9ECEEA7DFA58945 /* Pods-MarvelUIComponentsExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F00EC567279A835DFC181A465C5226C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A65E115D9D29341365447FC14DFB512 /* MarvelUIComponents-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28664E09E71571199DA5080D75215C28 /* MarvelUIComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687E2503C279503B664A68C0AE991183 /* Build configuration list for PBXNativeTarget "MarvelUIComponents" */;
+			buildPhases = (
+				9F00EC567279A835DFC181A465C5226C /* Headers */,
+				34A2F17462B079A4BA09772A92401C47 /* Sources */,
+				FA1913174BFCFFD717C45DA3D3A91511 /* Frameworks */,
+				AA3DCA2F166B1A89D8D356BFF51E7F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D119F3245BFE5FDFFDD16000F1838733 /* PBXTargetDependency */,
+			);
+			name = MarvelUIComponents;
+			productName = MarvelUIComponents;
+			productReference = 3BB002367D9D23F7D965C39CF9A2703D /* MarvelUIComponents */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE19FB3D51F755FAE5E9C6678F19BB9E /* MarvelUIComponents-Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9EEC89914BC4492D48A373E3A82F1B /* Build configuration list for PBXNativeTarget "MarvelUIComponents-Resources" */;
+			buildPhases = (
+				373C19419EE5A8F09D68601B2E768FAF /* Sources */,
+				0E30C950B6BE406B86799ECCD414E0C1 /* Frameworks */,
+				C8406EE1FDACC69BE42A39E3185CA8A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MarvelUIComponents-Resources";
+			productName = Resources;
+			productReference = 1A446CD91853E48B2C5489CFA4C8D393 /* MarvelUIComponents-Resources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F21279C9B358C2E4563983BF11F11ED1 /* Pods-MarvelUIComponentsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A98A61E6286B58FA60435ABB633032 /* Build configuration list for PBXNativeTarget "Pods-MarvelUIComponentsExample" */;
+			buildPhases = (
+				69FF022FC485F64B4AF40CF4AA367760 /* Headers */,
+				6B9CABBCAF47F4FC4D24DD97FD6E40C6 /* Sources */,
+				01EE0A450AC4928662EBAA8EB2077189 /* Frameworks */,
+				20F17085534CFBAF82837AE4DCFE4F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4892AF887B10FC9C1D59074B6B871532 /* PBXTargetDependency */,
+			);
+			name = "Pods-MarvelUIComponentsExample";
+			productName = Pods_MarvelUIComponentsExample;
+			productReference = 7AB8180C07F2E2145121F303164EBDA1 /* Pods-MarvelUIComponentsExample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BF225CC3336141F87E7D066D0C48DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28664E09E71571199DA5080D75215C28 /* MarvelUIComponents */,
+				CE19FB3D51F755FAE5E9C6678F19BB9E /* MarvelUIComponents-Resources */,
+				F21279C9B358C2E4563983BF11F11ED1 /* Pods-MarvelUIComponentsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20F17085534CFBAF82837AE4DCFE4F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA3DCA2F166B1A89D8D356BFF51E7F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AAED71F41517A6657C9E64630DF1230 /* MarvelUIComponents-Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8406EE1FDACC69BE42A39E3185CA8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A2F17462B079A4BA09772A92401C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE601A36782B188BB78535C222E55B7 /* Logger.swift in Sources */,
+				A4EA05DF31791A2A9FF86FCECC43A22D /* MarvelUIComponents-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373C19419EE5A8F09D68601B2E768FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9CABBCAF47F4FC4D24DD97FD6E40C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B564DAE0D4CE7476A8E46B5D410700 /* Pods-MarvelUIComponentsExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4892AF887B10FC9C1D59074B6B871532 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MarvelUIComponents;
+			target = 28664E09E71571199DA5080D75215C28 /* MarvelUIComponents */;
+			targetProxy = BE4F93063CDE6BCFD2B75DC167835B4F /* PBXContainerItemProxy */;
+		};
+		D119F3245BFE5FDFFDD16000F1838733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarvelUIComponents-Resources";
+			target = CE19FB3D51F755FAE5E9C6678F19BB9E /* MarvelUIComponents-Resources */;
+			targetProxy = B3A51A5A3D2AAE11BC86DA51A12A15CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B046E856D1D2AF30189F00C45F5173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468FE7B7E589F05E7C039F67BD5DE4E9 /* MarvelUIComponents.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MarvelUIComponents";
+				IBSC_MODULE = MarvelUIComponents;
+				INFOPLIST_FILE = "Target Support Files/MarvelUIComponents/ResourceBundle-Resources-MarvelUIComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		564068BD00BE8C77FEAE81A3918BABDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC250EE0A1FFEA073AAED849C768383 /* Pods-MarvelUIComponentsExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelUIComponentsExample/Pods-MarvelUIComponentsExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelUIComponentsExample/Pods-MarvelUIComponentsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		63D216AEB9EF952E00A7B60715432825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468FE7B7E589F05E7C039F67BD5DE4E9 /* MarvelUIComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarvelUIComponents/MarvelUIComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarvelUIComponents/MarvelUIComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarvelUIComponents/MarvelUIComponents.modulemap";
+				PRODUCT_MODULE_NAME = MarvelUIComponents;
+				PRODUCT_NAME = MarvelUIComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8033CA951C2A9A391D383A90413A12A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1637C6389DB8D76E99779FC7E9BF7FB /* MarvelUIComponents.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MarvelUIComponents";
+				IBSC_MODULE = MarvelUIComponents;
+				INFOPLIST_FILE = "Target Support Files/MarvelUIComponents/ResourceBundle-Resources-MarvelUIComponents-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A73B2127CE2456DDEB1226CA24C930EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E83953BC3B3BC35C65EEC5FD2AB0978 /* Pods-MarvelUIComponentsExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarvelUIComponentsExample/Pods-MarvelUIComponentsExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarvelUIComponentsExample/Pods-MarvelUIComponentsExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCA25F992B840C05E4313B3CED1A3007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1637C6389DB8D76E99779FC7E9BF7FB /* MarvelUIComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MarvelUIComponents/MarvelUIComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MarvelUIComponents/MarvelUIComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MarvelUIComponents/MarvelUIComponents.modulemap";
+				PRODUCT_MODULE_NAME = MarvelUIComponents;
+				PRODUCT_NAME = MarvelUIComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9EEC89914BC4492D48A373E3A82F1B /* Build configuration list for PBXNativeTarget "MarvelUIComponents-Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B046E856D1D2AF30189F00C45F5173C /* Debug */,
+				8033CA951C2A9A391D383A90413A12A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A98A61E6286B58FA60435ABB633032 /* Build configuration list for PBXNativeTarget "Pods-MarvelUIComponentsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73B2127CE2456DDEB1226CA24C930EC /* Debug */,
+				564068BD00BE8C77FEAE81A3918BABDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687E2503C279503B664A68C0AE991183 /* Build configuration list for PBXNativeTarget "MarvelUIComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D216AEB9EF952E00A7B60715432825 /* Debug */,
+				BCA25F992B840C05E4313B3CED1A3007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

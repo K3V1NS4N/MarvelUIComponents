@@ -1,0 +1,16 @@
+PODS:
+  - MarvelUIComponents (0.1.0)
+
+DEPENDENCIES:
+  - MarvelUIComponents (from `../`)
+
+EXTERNAL SOURCES:
+  MarvelUIComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarvelUIComponents: 9b850e6a1444fcdcaba42749342d477db21477bb
+
+PODFILE CHECKSUM: 98bd09b27999d1194e39009a24e724efde57d1df
+
+COCOAPODS: 1.11.2

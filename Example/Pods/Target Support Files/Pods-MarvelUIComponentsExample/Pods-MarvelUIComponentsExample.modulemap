@@ -1,0 +1,6 @@
+framework module Pods_MarvelUIComponentsExample {
+  umbrella header "Pods-MarvelUIComponentsExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
